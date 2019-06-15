@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "gedcom2html/generated",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

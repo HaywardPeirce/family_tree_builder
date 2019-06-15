@@ -4,12 +4,6 @@ from datetime import datetime
 import subprocess
 application = Flask(__name__)
 
-# # lookup the ID of the latest push 
-# def lookup_local_commit():
-
-# def is_latest_commit():
-
-
 @application.route("/update_site", methods=['POST'])
 def index():
 
