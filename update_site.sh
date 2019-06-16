@@ -26,4 +26,6 @@ npm config set prefix ~/.local
 
 npm install -g firebase-tools
 
+firebase use --add $FIREBASE_PROJECT
+
 firebase deploy --token "$FIREBASE_TOKEN"
