@@ -17,7 +17,7 @@ git reset --hard origin/python3
 
 wget https://d3js.org/d3.v4.min.js -nc -P assets/js/
 
-python generate.py -f ../family-tree/family.ged -t 'Family Tree'
+python3 generate.py -f ../family-tree/family.ged -t 'Family Tree'
 
 cd ..
 cp -R family-tree/resources gedcom2html/generated/resources
