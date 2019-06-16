@@ -22,6 +22,8 @@ python generate.py -f ../family-tree/family.ged -t 'Family Tree'
 cd ..
 cp -R family-tree/resources gedcom2html/generated/resources
 
+npm config set prefix ~/.local
+
 npm install -g firebase-tools
 
 firebase deploy --token "$FIREBASE_TOKEN"
