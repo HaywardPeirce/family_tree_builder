@@ -7,10 +7,13 @@
 3. Install the Firebase CLI tools `npm install -g firebase-tools`
 4. Login to Firebase and retirve the refresh token that will be used to authenticate with Firebase: https://github.com/firebase/firebase-tools#using-with-ci-systems
 3. Setup environment variables. Edit `nano ~/.bashrc` and then refresh the environment variables `source ~/.bashrc` with the following info:
+
 ```export REPO_BRANCH_FAMILY_TREE=master
 export REPO_BRANCH_P2G=python3
 export FIREBASE_TOKEN=whateveryourtokenis
-PATH=~/.local/bin/:$PATH``` (Included to help with npm: http://michaelb.org/the-right-way-to-do-global-npm-install-without-sudo/)
+PATH=~/.local/bin/:$PATH
+``` 
+(Included to help with npm: http://michaelb.org/the-right-way-to-do-global-npm-install-without-sudo/)
 
 ### Testing Locally
 
